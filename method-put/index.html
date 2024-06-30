@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Метод PUT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    thead th,
+    tbody th:first-child {
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .toast {
+      --bs-toast-spacing: 0.5rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container" style="max-width: 45rem;">
+
+    <h1 class="h4 my-3">Список записей</h1>
+
+    <table class="table table-bordered mb-5">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 5%">#</th>
+          <th scope="col" style="width: 55%">Модель смартфона</th>
+          <th scope="col" style="width: 20%">Цена</th>
+          <th scope="col" style="width: 20%"></th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+  </div>
+
+  <div class="toast-container position-fixed top-0 end-0 p-3" style="max-width: 16rem;"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
